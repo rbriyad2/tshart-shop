@@ -2,3 +2,14 @@
     width: 1280px;
     margin: 0 auto;
 }
+.shop-container{
+    display: flex;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 50px;
+    gap: 25px;
+}
+.tsharts-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

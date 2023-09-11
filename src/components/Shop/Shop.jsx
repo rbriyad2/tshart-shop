@@ -4,7 +4,7 @@ import './Shop.css';
 const Shop = () => {
     return (
         <div>
-            
+            <h2></h2>
         </div>
     );
 };

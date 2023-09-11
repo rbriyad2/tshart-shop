@@ -1,0 +1,25 @@
+.tshart-shop{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.tshart-shop img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.buynowBTN{
+    border: none;
+    background-color: #0f0101;
+    color: #cbc8c8;
+    font-size: medium;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+.buynowBTN:hover{
+    background-color: aquamarine;
+    color: #000;
+}
