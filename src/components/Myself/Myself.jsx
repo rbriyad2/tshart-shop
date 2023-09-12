@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Sepcial from '../Sepcial/Sepcial';
+import { RingContext } from '../Grandpa/Grandpa';
 
-const Myself = ({ring}) => {
+const Myself = () => {
+    const road = useContext(RingContext)
     return (
         <div>
             <h2>Myself</h2>
-            <Sepcial ring={ring}></Sepcial>
+            <Sepcial ring={road}></Sepcial>
         </div>
     );
 };
