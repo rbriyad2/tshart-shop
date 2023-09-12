@@ -13,3 +13,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+.cart-contsiner{
+    width: 100%;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px 10px 0 0;
+}

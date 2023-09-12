@@ -1,4 +1,28 @@
 .cart{
-    background-color: aliceblue;
     padding: 15px;
+}
+.cart h2{
+    text-align: center;
+}
+.xBTN{
+    padding: 3px 15px;
+    background-color: aliceblue;
+    cursor: pointer;
+    margin-left: 15px;
+    border: 1px solid #393a3a;
+    border-radius: 3px;
+}
+.xBTN:hover{
+    background-color: #fd5050;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.border{
+    border: 1px solid green;
+    padding: 5px;
+    
 }
